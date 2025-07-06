@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+#consent-screen, #main-interface {
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+  font-size: 16px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  resize: none;
+}
+
+canvas {
+  width: 95%;
+  height: 300px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin: 10px auto;
+  display: block;
+  touch-action: none;
+}
+
+button {
+  margin: 10px;
+  padding: 12px;
+  font-size: 16px;
+  width: 90%;
+  max-width: 400px;
+}
